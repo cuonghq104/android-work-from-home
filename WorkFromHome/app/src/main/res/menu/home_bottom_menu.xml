@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_red"
+        android:icon="@drawable/ic_beach_access_black_24dp"
+        android:title="Đỏ"/>
+    <item
+        android:id="@+id/menu_orange"
+        android:icon="@drawable/ic_archive_black_24dp"
+        android:title="Cam"/>
+    <item
+        android:id="@+id/menu_yellow"
+        android:icon="@drawable/ic_assessment_black_24dp"
+        android:title="Vàng"/>
+</menu>
