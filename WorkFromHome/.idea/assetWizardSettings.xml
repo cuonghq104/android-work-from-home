@@ -28,8 +28,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_beach_access_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\Admin" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_teaser" />
+                            <entry key="sourceFile" value="C:\Users\Admin\Downloads\film-roll.svg" />
                           </map>
                         </option>
                       </PersistentState>

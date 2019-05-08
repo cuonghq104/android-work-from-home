@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:background="@drawable/background_button_app_1"
+            android:background="@drawable/genre_action_bg"
             android:text="Adventure"
             android:textColor="@color/colorWhite"
             android:textSize="14sp" />

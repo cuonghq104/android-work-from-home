@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:elevation="50dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/ll_genre"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/genre_action_bg">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_genre"
+        android:textSize="14sp"
+        android:paddingStart="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:text="Action"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_genre"
+        android:paddingEnd="5dp"
+        android:tint="@color/colorWhite"
+        android:src="@drawable/genre_action_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</LinearLayout>

@@ -13,16 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".generic_example.GenericActivity"></activity>
-        <activity android:name=".viewpager_inside_fragment.ContainerActivity">
+        <activity android:name=".youtube.GenreActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".upde.HomeActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".youtube.YoutubeActivity">
+        </activity>
+        <activity android:name=".generic_example.GenericActivity" />
+        <activity android:name=".viewpager_inside_fragment.ContainerActivity"></activity>
+        <activity android:name=".upde.HomeActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
