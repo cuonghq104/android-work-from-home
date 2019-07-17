@@ -26,6 +26,12 @@
         <activity android:name=".viewpager_inside_fragment.ContainerActivity"></activity>
         <activity android:name=".upde.HomeActivity" />
         <activity android:name=".MainActivity" />
+        <service android:name=".servicestesting.MusicService" />
+        <receiver android:name=".servicestesting.MediaReceiver">
+            <intent-filter>
+                <action android:name="ptit.cuonghq.hny.change"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
